@@ -27,19 +27,19 @@ TBC
 
 ###### Product
 | name | type | index |
-| :- | :-: | :-: |
+| :--- | :--: | :---: |
 | id | ObjectID | primary key |
 | number | int |
 
 ###### User
 | name | type | index |
-| :- | :-: | :-: |
+| :--- | :--: | :---: |
 | id | ObjectID | primary key |
 | number | int |
 
 ###### Like
 | name | type | index |
-| :- | :-: | :-: |
+| :--- | :--: | :---: |
 | id | ObjectID | primary key |
 | product | DBRefs | index |
 | user | DBRefs |
@@ -49,19 +49,19 @@ TBC
 
 ###### Product
 | name | type | index |
-| :- | :-: | :-: |
+| :--- | :--: | :---: |
 | id | int | primary key |
 | number | int |
 
 ###### User
 | name | type | index |
-| :- | :-: | :-: |
+| :--- | :--: | :---: |
 | id | int | primary key |
 | number | int |
 
 ###### Like
 | name | type | index |
-| :- | :-: | :-: |
+| :--- | :--: | :---: |
 | product | int | primary key |
 | user | int |
 | ts | timestamp | primary key |
