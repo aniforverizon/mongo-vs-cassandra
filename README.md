@@ -1,8 +1,6 @@
 # Performance Test : Mongo vs Cassandra
----
 
 ## Description
----
 
 ### A very simple scenario.
 
@@ -16,12 +14,10 @@ Given a product id, found the most recent 20 likes, etc.
 
 ---
 ## File descriptions
----
 TBC
 
 ---
 ## Schema
----
 
 ### mongo
 
